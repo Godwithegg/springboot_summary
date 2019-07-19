@@ -1,0 +1,29 @@
+server:
+  port: 8083
+spring:
+  profiles:
+    active: dev
+---
+
+server:
+  port: 8086
+spring:
+  profiles: dev
+---
+server:
+  port: 8087
+spring:
+  profiles: prod
+---
+#person:
+#  age: 18
+#  boss: false
+#  birth: 2017/12/12
+#  maps: {k1: v1,k2: 12}
+#  lists:
+#    - lufei
+#    - suolong
+#  dog:
+#    name: 船长
+#    age: 2
+#  last-name: 路飞
